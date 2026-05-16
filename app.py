@@ -15,6 +15,7 @@ def get_db():
 
 
 # CREATE TABLES
+# CREATE TABLES
 def create_tables():
 
     conn = get_db()
@@ -38,6 +39,9 @@ def create_tables():
 
     conn.commit()
     conn.close()
+
+
+create_tables()
 
 
 # HOME
